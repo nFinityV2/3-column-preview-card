@@ -32,7 +32,6 @@ button {
     border-radius: 50px;
     background-color: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
-    color: inherit;
 }
 
 .card-layout {
@@ -55,4 +54,16 @@ button {
     background-color: hsl(179, 100%, 13%);
     margin-bottom: 75px;
     border-radius: 0 0 10px 10px;
+}
+
+.sedan-colour {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-colour {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-colour {
+    color: hsl(179, 100%, 13%);
 }
