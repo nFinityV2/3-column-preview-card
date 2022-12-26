@@ -3,6 +3,9 @@ body {
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,4 +69,35 @@ button {
 
 .luxury-colour {
     color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1200px) {
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        padding: 200px;
+    }
+
+    section {
+        width: 300px;
+    }
+
+    p {
+        padding-bottom: 80px;
+    }
+
+    .card-layout {
+        margin: 0;
+    }
+
+    .sedans {
+        margin-top: 0;
+        border-radius: 10px 0 0 10px ;
+    }
+    
+    .luxury {
+        margin-bottom: 0;
+        border-radius: 0 10px 10px 0;
+    }
 }
